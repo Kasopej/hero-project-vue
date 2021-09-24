@@ -33,7 +33,7 @@ body{padding: 0; margin: 0;}
 nav{display: flex; justify-content: space-between; align-items: center; background-color: blue; margin-bottom: 0;}
 ul{list-style: none; padding: 0;} 
 h1{text-align: start; color: black; padding-left: 10px;}
-.hero-container{width: 60%; background-color: rgb(20, 17, 51);}
+.hero-container{width: 100%; background-color: rgb(20, 17, 51);}
 .message{background-color: blue; padding: 10px; font-weight: bold; text-transform: capitalize;}
 .header-bar-links{margin: 0 10px;}
 .header-bar-links li{display: inline-block; padding: 0 5px;}
@@ -45,6 +45,9 @@ h1{text-align: start; color: black; padding-left: 10px;}
 .hero-list-group li:nth-child(2){color: black;}
 .hero-details label, .hero-details input {display: block; border-radius: 2.5px; width: 200px; margin: auto; text-align: center;
 margin-bottom: 7px;}
-
 .actions button {margin: 0 4px;}
+
+@media screen and (min-width: 992px) {
+  .hero-container{width: 60%;}
+}
 </style>
