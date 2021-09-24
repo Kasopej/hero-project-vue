@@ -22,7 +22,7 @@
 
 import HeroList from "./hero-list.vue";
 import HeroDetails from "./hero-details.vue";
-import { ourHeroes } from "../shared/data";
+import { data } from "../shared/data.js";
 
 
 export default {
@@ -35,20 +35,15 @@ export default {
         }
     },
     components: {HeroList, HeroDetails},
-    created() {
-        this.loadHeroes();
+    async created() {
+        await this.loadHeroes();
     },
     methods: {
-        async getHeroes() {
-            return new Promise(resolve => {
-            setTimeout(() => resolve(ourHeroes), 1500);
-            });
-        },
 
         async loadHeroes() {
             this.heroes = [];
             this.message = 'getting the heroes, please be patient';
-            this.heroes = await this.getHeroes();
+            this.heroes = await data.getHeroes();
             this.message = '';
         },
         selectHero(value){
