@@ -30,7 +30,7 @@ export default {
 
 body, a{color: white !important; text-decoration: none;}
 body{padding: 0; margin: 0;}
-nav{display: flex; justify-content: space-between; align-items: center; background-color: blue; margin-bottom: 0;}
+nav{display: flex; justify-content: space-between; align-items: center; background-color: blue; margin-bottom: 0; width: 100%;}
 ul{list-style: none; padding: 0;} 
 h1{text-align: start; color: black; padding-left: 10px;}
 .hero-container{width: 100%; background-color: rgb(20, 17, 51); padding: 20px;}
