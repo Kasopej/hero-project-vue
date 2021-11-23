@@ -9,7 +9,7 @@
 export default { //exporting
     name: 'HeroList', //Local change in main branch
     props: {
-
+// Made changes in MAIN branch
       hero: {
         type: Object,
         default: () => {},
