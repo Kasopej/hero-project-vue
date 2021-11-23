@@ -2,7 +2,7 @@
   <ul class="hero-list-group">
     <li class="hero-list-name" @click="select">{{hero.firstName}}</li>
     <li>{{hero.description}}</li>
-  </ul>
+  </ul> <!-- More changes! -->
 </template>
 
 <script>
