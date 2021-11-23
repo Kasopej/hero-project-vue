@@ -7,7 +7,7 @@
 
 <script>
 export default { //exporting
-    name: 'HeroList',
+    name: 'HeroList', //Local change in main branch
     props: {
 
       hero: {
