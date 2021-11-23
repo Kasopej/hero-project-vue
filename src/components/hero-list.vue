@@ -10,7 +10,7 @@ export default { //exporting
     name: 'HeroList', //Local change in main branch
     props: {
 // Made changes in MAIN branch
-      hero: {
+      hero: { // Made another remote change
         type: Object,
         default: () => {},
       }
