@@ -6,7 +6,7 @@
 </template>
 
 <script>
-export default { //exporting!!!!!!!!!
+export default { //exporting
     name: 'HeroList',
     props: {
 
