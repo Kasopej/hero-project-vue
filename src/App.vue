@@ -1,6 +1,6 @@
 <template>
 
-  <HeaderBar />
+  <HeaderBar /> No more heroes!
   <h1>Heroes App</h1>
   <div class="hero-container">
     <Heroes />
