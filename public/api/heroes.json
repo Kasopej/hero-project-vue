@@ -30,5 +30,13 @@
       "capeCounter": 0,
       "originDate": "2007-08-24",
       "description": "arc trooper"
+    },
+    {
+      "id": 41,
+      "firstName": "Johnson",
+      "lastName": "Papa",
+      "capeCounter": 8,
+      "originDate": "2017-10-24",
+      "description": "arc trooper"
     }
   ]
