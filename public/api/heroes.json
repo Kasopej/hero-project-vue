@@ -29,6 +29,22 @@
       "lastName": "Papa",
       "capeCounter": 0,
       "originDate": "2007-08-24",
-      "description": "arc trooper"
+      "description": "top star"
+    },
+    {
+      "id": 41,
+      "firstName": "Johnson",
+      "lastName": "Papa",
+      "capeCounter": 8,
+      "originDate": "2017-10-24",
+      "description": "poop pooper"
+    },
+    {
+      "id": 42,
+      "firstName": "Cooper",
+      "lastName": "Papa",
+      "capeCounter": 10,
+      "originDate": "2018-01-13",
+      "description": "trail blazer"
     }
   ]
